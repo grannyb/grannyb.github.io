@@ -30,11 +30,6 @@
                 <div id="header">
 
                         <img src="GrannyB_finallogo.png" alt="Granny B Farms logo" width="320" height="177">
-			<div id="nav">
-				<ul>
-					<li><a href="http://blog.grannybfarms.com">Blog</a></li>
-				</ul>
-			</div>
 
                         <!--<div id="nav"></div>-->
 
@@ -57,7 +52,7 @@
 
                         <div id="address">
 
-                                <p>7201 Tucker Road<br>
+                                <p>7318 Tucker Road<br>
                                 Centerburg, OH 43011<br>
                                 <a href="tel:1-740-358-9607">1-740-358-9607</a><br>
                                 <a href="mailto:grannybfarms@gmail.com">grannybfarms@gmail.com</a>

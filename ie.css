@@ -1,0 +1,28 @@
+/* IE Styles - Granny B Farms */
+
+body {
+	background: url("GrannyB_bknd.png") 0 0 repeat;
+}
+
+#address p, #address a {
+	color: #fefcf6;
+	margin-right: 50px;
+	margin-top: 70px;
+}
+
+#header img {
+	margin-top: 20px;
+}
+
+#content {
+	padding: 40px;
+}
+
+#content h1 {
+	margin-left: 0;
+	margin-top: 20px;
+}
+
+#content p {
+	margin: 0;
+}
