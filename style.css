@@ -1,0 +1,210 @@
+/* Granny B Farms */
+
+/* RESET
+/* --------------------------------------------
+
+	http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------------------------------*/
+
+body {
+	background-color:  #1A6321;
+	background: url("linen.png") 0 -5px repeat-x, url("GrannyB_bknd.png") 0 150px repeat;
+	font-family: Garamond, serif;
+	margin-top: -10px;
+}
+
+#wrapper {
+	margin: auto;
+	width: 90%;
+}
+
+#header {
+	margin-bottom: 70px;
+	padding: 20px;
+}
+
+#header img {
+	margin-bottom: -60px;
+	margin-top: 10px;
+}
+
+#nav {
+	margin-left: 22em;
+	margin-top: -3em;
+}
+
+#nav li {
+	float: left;
+	margin-right: 1em;
+}
+
+#nav a {
+	text-decoration: none;
+	font-size:200%;
+	color: #073f77;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+/* CONTENT
+/* --------------------------------------------*/
+
+#content {
+	background: #fefcf6;
+	border-radius: 1em;
+	-moz-box-shadow: 0 0 5px 5px rgba(50, 50, 50, .5);
+	-webkit-box-shadow: 0 0 5px 5px rgba(50, 50, 50, .5);
+	box-shadow: 0 0 5px 5px rgba(50, 50, 50, .5);
+	color: #333;
+	clear:both;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px;
+	width: 75%;
+}
+
+#content h1 {
+	color: #073f77;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	margin: 20px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 20px;
+	margin-top: 0;
+}
+
+/* FOOTER & CONTACT
+/* --------------------------------------------*/
+
+#footer {
+	margin: 50px auto 0;
+	padding: 20px 20px 0;
+	width: 75%;
+}
+
+#footer p {
+	color: #fefcf6;
+	margin-bottom: 5px;
+}
+
+#address p{
+	color: #073f77;
+	margin-top: 40px;
+	position: absolute;
+	right: 88px;
+	top: 0;
+}
+
+#address a {
+	color: #073f77;
+	text-decoration: none;
+}
+
+/* --------------------------------------------*/
+
+/* SMALL SCREENS
+/* --------------------------------------------*/
+
+@media screen and (max-width: 700px) {
+	
+	#header img {
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	#header {
+		margin-bottom: 25px;
+	}
+	
+	h1, p {
+		line-height: 1.25em;
+	}
+
+	#footer {
+		padding: 0;
+	}
+	
+	#footer p {
+		color: #fefcf6;
+		text-align: center;
+		padding-top: 10px;
+		margin: 0;
+	}
+	
+	#address p{
+		color: #fefcf6;
+		text-align: center;
+		position: static;
+		margin-top: 0;
+		margin-right: 0;
+	}
+	
+	#address a {
+		color: #fefcf6;
+		text-decoration: none;
+	}	
+	
+}
+
+@media screen and (max-width: 500px) {
+	
+		#content {
+			padding: 15px;
+		}
+	
+}
