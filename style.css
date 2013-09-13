@@ -47,7 +47,7 @@ table {
 
 body {
   background-color: #1A6321;
-  background: url('../images/linen.png') 0 -5px repeat-x, url('../images/GrannyB_bknd.png') 0 150px repeat;
+  background: url('linen.png') 0 -5px repeat-x, url('GrannyB_bknd.png') 0 150px repeat;
   font-family: Garamond, serif;
 }
 
